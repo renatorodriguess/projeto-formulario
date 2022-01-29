@@ -1,17 +1,18 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 #titulo{
     font-family: sans-serif;
-    color: #380b61;
+    color: #4E1471;
     margin-left: 7%;
 }
 
 #titulo2{
     font-family: sans-serif;
-    color: #380b61;
+    color: #4E1471;
     margin-left: 12%;
 }
 
@@ -23,7 +24,7 @@ body{
     background-color: #F0F8FF;
     font-family: sans-serif;
     font-size: 1em;
-    color: #59429d;
+    color: #6b2191;
     margin-left: 36%;
     margin-top: 2%;
     justify-content: center;
@@ -39,7 +40,7 @@ input, select, textarea, button{
 
 .campo label{
     margin-bottom: 0.2em;
-    color: #59429d;
+    color: #6b2191;
     display: block;
 }
 
@@ -50,7 +51,7 @@ fieldset.grupo .campo{
 
 .campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
     padding: 0.2em;
-    border: 1px solid #59429d;
+    border: 1px solid #6b2191;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
     display:block
 }

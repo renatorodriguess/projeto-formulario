@@ -16,10 +16,14 @@
     </div>
 
     <form>
-        <fieldset>
-            <div>
-                <label><strong>Nome</strong></label>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong><input type="text" id="nome" name="nome" required /></label>
             </div>
+            <div class="campo">
+                <label for="nome"><strong>Sobrenome</strong><input type="text" id="sorenome" name="sobrenome" required /></label>
+            <div>
+            
         </fieldset>
 
         <div class="campo">
@@ -76,8 +80,10 @@
             <br>
             <label><strong>Conte um pouco da sua experiência:</strong></label>           
             <textarea name="experiencia" id="experiencia" cols="50" rows="7"></textarea>
+        <div>  
 
-        <button class="botao" type="button">Concluído</button>
+
+        <button class="botao" type="submit">Concluído</button>
 
     </form>
 
